@@ -1,0 +1,33 @@
+h1 , h2, h3, h4 {
+    text-transform: uppercase;
+    line-height: 1.5;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: bold;
+    color: #484848;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #aaa;
+}
+
+h3 {
+    font-size: 1em;
+    font-weight: bold;
+    color: #484848;
+}
+
+h4 {
+    font-size: 12px;
+    color: #aaa;
+}
+
+p {
+    font-size: 1em;
+    color: #666;
+    line-height: 2;
+    font-weight: normal;
+}

@@ -1,0 +1,11 @@
+.container {
+    display: grid;
+    height: auto;
+    width: 100%;
+    grid-template-columns: 1fr;
+    grid-template-rows: 45em auto auto auto 25em 25em; 
+}
+
+
+
+

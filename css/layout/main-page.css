@@ -1,0 +1,98 @@
+/* Banner da página e navegação */
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background:url("../../img/mountain_picture.jpg");
+    background-size: cover;
+    background-color: rgba(0, 0, 0, .4);
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+}
+
+.banner .main-titles {
+    width: 50%;
+    margin: 3em 0;
+    text-align: center;
+}
+
+.font-white {
+    color: #fff;
+}
+
+.navigation {
+    margin-left: auto;
+    height: 8em;
+}
+
+.navigation ul {
+    line-height: 8em;
+}
+
+.navigation li {
+    display: inline-block;
+    padding: 0 2em;
+}
+
+.navigation a {
+    color: #aaa;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.navigation a:hover {
+    color: #fff;
+    transition: 0.5s;
+}
+
+/* Seção de apresentação da página (about) */
+
+.about {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 5em 8em;
+}
+
+.about .main-titles {
+    margin: auto;
+    padding: 3em;
+    flex: 1 1 20em;
+    text-align: left;
+}
+
+.about .article {
+    padding: 2em;
+    flex: 1 1 30em;
+}
+
+/* Seção de lugares (places) */
+
+.places {
+    background-color: #f6f6f6;
+    padding: 4em 3em;
+    text-align: center;
+}
+
+.places .btn {
+    display: inline-block;
+    margin: 0 1em;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Seção de descobertas (discovery) */
+
+.discovery {
+    padding: 4em 0;
+}
+
+.discovery .main-titles {
+    text-align: center;
+}
+

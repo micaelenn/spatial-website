@@ -1,0 +1,39 @@
+.info-places-container {
+    margin: 4em 2em 0 2em;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.info-places {
+    margin: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex: 1 1 30em;
+}
+
+.info-places__image {
+    padding: 1em;
+}
+
+.info-places__image img {
+    border-radius: 6em;
+    border: solid 6px #90909040;
+}
+
+.info-places__text {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 14em;
+    padding: 1em;
+}
+
+.info-places__text p {
+    padding-top: 1em;
+}
+
+.side--right {
+    flex-direction: row-reverse;
+    text-align: right;
+}

@@ -1,0 +1,19 @@
+.btn {
+    background-color:#f32853;
+    width: 14em;
+    padding: 1em 0;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.btn__link {
+    font-size: 1.5em;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.bg--black {
+    background-color: #323037;
+}
