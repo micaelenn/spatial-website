@@ -9,6 +9,10 @@ h1 {
     color: #484848;
 }
 
+h1.font-white {
+    color: #fff;
+}
+
 h2 {
     font-size: 1.5em;
     color: #aaa;
@@ -30,4 +34,10 @@ p {
     color: #666;
     line-height: 2;
     font-weight: normal;
+}
+
+li {
+    color: #aaa;
+    display: inline-block;
+    padding: 0 2em;
 }

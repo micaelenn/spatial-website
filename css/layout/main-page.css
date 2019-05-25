@@ -17,31 +17,22 @@
     text-align: center;
 }
 
-.font-white {
-    color: #fff;
-}
-
-.navigation {
+.main-navigation {
     margin-left: auto;
     height: 8em;
 }
 
-.navigation ul {
+.main-navigation ul {
     line-height: 8em;
 }
 
-.navigation li {
-    display: inline-block;
-    padding: 0 2em;
-}
-
-.navigation a {
+.main-navigation a {
     color: #aaa;
     text-decoration: none;
     text-transform: uppercase;
 }
 
-.navigation a:hover {
+.main-navigation a:hover {
     color: #fff;
     transition: 0.5s;
 }
@@ -89,10 +80,42 @@
 /* Seção de descobertas (discovery) */
 
 .discovery {
-    padding: 4em 0;
+    padding: 5em 0;
 }
 
 .discovery .main-titles {
     text-align: center;
+}
+
+/* Seção de contato (contact) */
+
+.contact {
+    background:url("../../img/hot-air-ballons.jpg");
+    background-size: cover;
+    background-color: rgba(0, 0, 0, .4);
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+    text-align: center;
+    padding: 5em 0;
+}
+
+.contact .btn {
+    margin: 4em 0;
+}
+
+/* Rodapé da página (footer) */
+
+.main-footer {
+    background-color: #f6f6f6;
+    padding: 2em 0;
+    text-align: center;
+}
+
+.icons {
+    padding: 3em 0;
+}
+
+.copyright li {
+    padding: 1em;
 }
 
