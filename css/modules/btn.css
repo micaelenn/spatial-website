@@ -18,3 +18,14 @@
 .bg--black {
     background-color: #323037;
 }
+
+@media (max-width: 750px) {
+
+    .btn {
+        width: 7em;
+    }
+
+    .btn__link {
+        font-size: 75%;
+    }
+}
