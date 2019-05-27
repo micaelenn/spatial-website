@@ -13,12 +13,12 @@
 
 .card-places__image {
     width: 100%;
-    background-color: antiquewhite;
 }
 
 @media (max-Width: 750px) {
 
     .card-places {
-        margin: 2em;
+        width: 15em;
+        margin: 1em;
     }
 }

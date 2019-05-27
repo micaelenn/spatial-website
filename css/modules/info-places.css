@@ -40,6 +40,10 @@
 
 @media (max-width: 570px) {
    
+    .info-places-container {
+        margin: 0;
+    }
+
     .info-places {
         text-align: center;
     }
