@@ -19,7 +19,6 @@
 
 .main-navigation {
     margin-left: auto;
-    height: 8em;
 }
 
 .main-navigation ul {
@@ -40,6 +39,13 @@
 .main-navigation li.threeline-icon {
     font-size: 1.5em;
     display: none;
+    cursor: pointer;
+}
+
+.main-navigation li.cross-icon {
+    font-size: 1.5em;
+    display: none;
+    cursor: pointer;
 }
 
 /* Seção de apresentação da página (about) */
@@ -149,6 +155,8 @@
     padding: 1em;
 }
 
+/* Media Query */
+
 @media (max-width: 750px) {
 
     .about {
@@ -160,12 +168,22 @@
         padding:2em 0;
     }
 
-    .main-navigation li {
-        display: none;
+    .main-navigation {
+        height: auto;
+    }
+
+    .main-navigation ul {
+        line-height: 5em;
     }
 
     .main-navigation li.threeline-icon {
+        line-height: 5em;
         display: inline;
+    }
+
+    .main-navigation li.cross-icon {
+        display: block;
+        text-align: right;
     }
 
     .main-titles {

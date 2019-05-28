@@ -13,18 +13,21 @@
         <link rel="stylesheet" href="css/modules/info-places.css">
         <link rel="stylesheet" href="css/modules/btn.css">
         <link rel="stylesheet" href="css/modules/card-places.css">
+        <link rel="stylesheet" href="css/modules/menu-mobile.css">
+        <script type="text/javascript" src="js/scripts.js"></script>
     </head>
 
     <body>
         <div class="container">
             <header class="banner">
-                <nav class="main-navigation">
-                    <ul>
+                <nav id="main-navigation" class="main-navigation">
+                        <li class="threeline-icon" onclick="OpenMenu()">&#9776;</li>
+                    <ul id="menu" class="menu">
+                        <li class="cross-icon" onclick="CloseMenu()">&Cross;</li>
                         <li><a href="#">About</a></li>
                         <li><a href="#">Places</a></li>
                         <li><a href="#">Discovery</a></li>
                         <li><a href="#">Contact Us</a></li>
-                        <li class="threeline-icon">&#9776;</li>
                     </ul>
                 </nav> 
 
