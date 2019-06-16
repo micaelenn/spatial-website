@@ -2,6 +2,9 @@
     margin: 4em 2em 0 2em;
     display: flex;
     flex-wrap: wrap;
+
+    display:-ms-flexbox;
+    -ms-flex-wrap: wrap;
 }
 
 .info-places {
@@ -11,6 +14,11 @@
     align-items: center;
     flex-wrap: wrap;
     flex: 1 1 30em;
+
+    display: -ms-flexbox;
+    -ms-flex-item-align: center;
+    -ms-flex-wrap: wrap;
+    -ms-flex: 1 1 30em;
 }
 
 .info-places__image {
@@ -27,6 +35,10 @@
     flex-direction: column;
     flex: 1 1 14em;
     padding: 1em;
+
+    display: -ms-flexbox;
+    -ms-flex-direction: column;
+    -ms-flex: 1 1 14em;
 }
 
 .info-places__text p {
@@ -36,6 +48,8 @@
 .side--right {
     flex-direction: row-reverse;
     text-align: right;
+
+    -ms-flex-direction: row-reverse;
 }
 
 @media (max-width: 570px) {
@@ -44,6 +58,9 @@
         margin: 0;
     }
 
+}
+
+@media (max-width: 500px) {
     .info-places {
         text-align: center;
     }

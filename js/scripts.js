@@ -8,6 +8,6 @@ function OpenMenu() {
 }
 
 function CloseMenu() {
-
+    
     document.getElementById("menu").className = "menu"
 }
