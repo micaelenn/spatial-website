@@ -1,13 +1,12 @@
 function OpenMenu() {
-
-    var x = document.getElementById("menu")
-
-    if (x.className === "menu") {
-        x.className += " menu_open"
-    }
-}
-
-function CloseMenu() {
+    const nav = document.getElementById("main-navigation")
     
-    document.getElementById("menu").className = "menu"
-}
+    if(nav.className === "main-navigation") {
+        nav.className +=  " menu-mobile"
+        document.getElementById('threeline-icon').innerHTML = "&Cross;"
+    } else {
+        nav.className = "main-navigation"
+        document.getElementById('threeline-icon').innerHTML = "&#9776;"
+    }
+} 
+

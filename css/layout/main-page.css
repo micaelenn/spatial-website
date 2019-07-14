@@ -1,7 +1,5 @@
 /* Banner da página e navegação */
 
-
-
 .banner {
     height: 45em;
     display: flex;
@@ -18,32 +16,23 @@
     text-align: center;
 }
 
-.main-navigation {
+#main-navigation {
     margin-left: auto;
+    padding: 2em 0;
 }
 
-.main-navigation ul {
-    line-height: 8em;
-}
-
-.main-navigation a {
+#main-navigation a {
     color: #aaa;
     text-decoration: none;
     text-transform: uppercase;
 }
 
-.main-navigation a:hover {
+#main-navigation a:hover {
     color: #fff;
     transition: 0.5s;
 }
 
-.main-navigation li.threeline-icon {
-    font-size: 1.5em;
-    display: none;
-    cursor: pointer;
-}
-
-.main-navigation li.cross-icon {
+#main-navigation li#threeline-icon {
     font-size: 1.5em;
     display: none;
     cursor: pointer;
@@ -161,22 +150,8 @@
 
 @media (max-width: 750px) {
 
-    .main-navigation {
-        height: auto;
-    }
-
-    .main-navigation ul {
-        line-height: 5em;
-    }
-
-    .main-navigation li.threeline-icon {
-        line-height: 5em;
-        display: inline;
-    }
-
-    .main-navigation li.cross-icon {
-        display: block;
-        text-align: right;
+    .main-navigation li {
+        display: none;
     }
 
     .main-titles {
@@ -190,6 +165,27 @@
     #places {
         margin: 0;
         padding:2em 0;
+    }
+
+    .menu-mobile {
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+
+    .menu-mobile ul {
+        margin: 0 8%;
+    }
+
+    .menu-mobile li {
+        border-bottom: 1px solid  #aaa;
+        display: block;
+    }
+
+    #main-navigation li#threeline-icon {
+        display: inline;
+        line-height: 2em;
+        border: none;
     }
 
 }
